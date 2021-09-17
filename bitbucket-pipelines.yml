@@ -1,0 +1,11 @@
+image: atlassian/default-image:latest
+
+pipelines:
+  branches:
+    develop: #develop ветка для развертывания на dev сервере
+      - step:
+          deployment: staging
+          script:
+            - echo "Deploy develop start"
+            - cat ./deploy/develop.sh | ssh -o "StrictHostKeyChecking=no" mercury@dev.echo-company.ru
+            - echo "Deploy develop end"

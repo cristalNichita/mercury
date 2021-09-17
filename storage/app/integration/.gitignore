@@ -1,0 +1,7 @@
+*
+!.gitignore
+!logs/
+!orders/
+!products/
+!users/
+!/example/**

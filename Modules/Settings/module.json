@@ -1,0 +1,16 @@
+{
+    "name": "Settings",
+    "alias": "settings",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Settings\\Providers\\DictServiceProvider",
+        "Modules\\Settings\\Providers\\SettingsServiceProvider"
+    ],
+    "aliases": {
+      "Dict": "Modules\\Settings\\Dict\\DictFacade"
+    },
+    "files": [],
+    "requires": []
+}

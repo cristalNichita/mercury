@@ -1,0 +1,22 @@
+<?php
+
+namespace Modules\Site\Database\Seeders;
+
+use Illuminate\Database\Seeder;
+use Illuminate\Database\Eloquent\Model;
+use Modules\Site\Entities\Page;
+
+class PageTableSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        Model::unguard();
+
+        Page::factory()->count(rand(5, 20))->create()->make();
+    }
+}

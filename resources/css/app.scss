@@ -1,0 +1,12 @@
+@import "variables";
+
+@import "~bootstrap";
+@import "~element-plus/packages/theme-chalk/src/index";
+
+.el-form--label-top .el-form-item__label {
+    padding-bottom: 0;
+}
+
+body {
+    background: $gray-100;
+}

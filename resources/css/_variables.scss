@@ -1,0 +1,31 @@
+/*  Bootstrap переменные */
+$primary: #303F9F;
+$secondary: #FF5722;
+$success: #4CAF50;
+$info: #1976D2;
+$warning: #FFC107;
+$danger: #D32F2F;
+
+$grid-breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1600px
+);
+
+$container-max-widths: (
+    sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 1140px,
+    xxl: 1560px
+);
+
+$label-margin-bottom: 0;
+
+
+/* Element UI переменные */
+$--color-primary: $primary;
+$--font-path: '~element-plus/lib/theme-chalk/fonts';

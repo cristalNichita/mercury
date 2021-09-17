@@ -1,0 +1,14 @@
+{
+  "name": "Order",
+  "alias": "order",
+  "description": "",
+  "keywords": [],
+  "priority": 0,
+  "providers": [
+    "Modules\\Order\\Providers\\OrderServiceProvider",
+    "Modules\\Order\\Providers\\OrderEventServiceProvider"
+  ],
+  "aliases": {},
+  "files": [],
+  "requires": []
+}

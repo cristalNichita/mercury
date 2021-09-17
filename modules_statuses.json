@@ -1,0 +1,10 @@
+{
+    "User": true,
+    "Catalog": true,
+    "Site": true,
+    "Integration": true,
+    "Order": true,
+    "Settings": true,
+    "Complaint": true,
+    "Mailing": true
+}

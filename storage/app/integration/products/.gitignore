@@ -1,0 +1,7 @@
+*
+!.gitignore
+!error/
+!new/
+!process/
+!success/
+!ready/

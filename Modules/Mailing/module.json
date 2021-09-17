@@ -1,0 +1,14 @@
+{
+    "name": "Mailing",
+    "alias": "mailing",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Mailing\\Providers\\MailingServiceProvider",
+        "Modules\\Mailing\\Providers\\MailingEventServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
